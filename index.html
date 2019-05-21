@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="main.css">
+	<title>Document</title>
+</head>
+<body>
+	
+	<main>
+		<header>
+			<h1>NPS APP</h1>
+		</header>
+		
+		<form method="GET" action="" class="nps-form">
+				<label for="states">
+					<h2>
+						Add Up to 2 State-Codes
+					</h2>
+
+					<input type="text" required class="state-1" placeholder="MD" id="states">
+					
+					<input type="text" required class="state-2" placeholder="VA" id="states">
+				</label>
+				
+				<label for="maxResults">
+					<h2>
+						Max Number of Results: 
+					</h2>
+
+					<input type="number" required value=10 id="maxResults">
+				</label>
+				
+				<br>
+				<br>
+				
+				<button type="submit" class="submit-btn">Submit</button>
+
+		</form>		
+
+		
+		
+	</main>
+	
+	
+	
+	
+	
+	
+	
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="index.js"></script>
+</body>
+</html>
