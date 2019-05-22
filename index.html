@@ -2,28 +2,31 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name=“description” content="Search for national parks by state codes.">
+
 	<link rel="stylesheet" href="main.css">
-	<title>Document</title>
+	<title>NPS App</title>
 </head>
 <body>
 	
-	<main>
+	<main role="main">
 		<header>
-			<h1>NPS APP</h1>
+			<h1>National Park Services Park-Finder</h1>
 		</header>
 		
 		<form method="GET" action="" class="nps-form">
-				<label for="states">
+				<label for="states" class="states-label">
 					<h2>
-						Add Up to 2 State-Codes
+						Add Up to 2 State-Codes:
 					</h2>
-
+						
 					<input type="text" required class="state-1" placeholder="MD" id="states">
 					
-					<input type="text" required class="state-2" placeholder="VA" id="states">
+					<input type="text" class="state-2" placeholder="VA" id="states">
 				</label>
 				
-				<label for="maxResults">
+				<label for="maxResults" class="maxResults-label">
 					<h2>
 						Max Number of Results: 
 					</h2>
@@ -37,6 +40,8 @@
 				<button type="submit" class="submit-btn">Submit</button>
 
 		</form>		
+		
+		<div class="results"></div>
 
 		
 		

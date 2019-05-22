@@ -1,0 +1,110 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+}
+
+main header {
+	background-color: black;
+	color: white;
+	width: 100%;
+	text-align: center;
+	padding: 20px;
+}
+
+.nps-form {
+	display: flex;
+	flex-direction: column;
+	background-color: lightgray;
+	width: 100%;
+	padding: 20px;
+	align-items: center;
+	justify-content: center;
+	border-bottom: 2px solid black;
+}
+
+.nps-form h2 {
+	font-size: 20px
+}
+
+.nps-form input {
+	border: 1px solid black;
+	margin: 5px 5px;
+	padding: 5px;
+	font-size: 18px
+}
+
+.states-label {
+	display: flex;
+	flex-direction: column;
+}
+
+.states-label h2 {
+	margin-right: 10px;
+}
+
+.maxResults-label {
+	display: flex;
+	flex-direction: column;
+	margin-top: 20px;
+}
+
+.maxResults-label h2 {
+	margin-right: 10px;
+}
+
+.submit-btn {
+	padding: 10px;
+	font-size: 18px;
+	border: 2px solid black;
+}
+
+.result {
+	border: 2px solid black;
+	margin: 15px;
+	text-decoration: none;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+
+.result:hover {
+	background-color: gray;
+	cursor: pointer
+}
+
+.result header {
+	font-size: 25px;
+	border-bottom: 2px solid black;
+		margin-bottom: 10px;
+}
+
+.result .description {
+	font-size: 18px;
+		margin-bottom: 10px;
+	padding: 10px
+}
+
+.result .address {
+	font-size: 20px;
+	font-weight: bolder;
+		margin-bottom: 10px;
+		padding: 0 10px
+
+}
+
+.result .url {
+	font-size: 18px;
+	padding: 0 10px;
+	padding-bottom: 20px;
+
+}
